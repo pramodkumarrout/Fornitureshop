@@ -109,11 +109,8 @@ nav::after{
       margin-top: 40px;
       font-size: 28px;
       font-weight: bold;
+      font-family:'Times New Roman', Times, serif;
       opacity: 0.5;
-      animation-name: textview;
-      animation-duration: 4s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
 }
 
 #para4 {
@@ -277,6 +274,79 @@ nav::after{
 #third_para2:hover{
         color: red;
 }
+
+
+/* Company logo section start here */
+
+#company_name {
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+        margin: 100px;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.company_logo {
+         display: grid;
+         grid-template-columns: auto auto auto auto auto auto;
+         gap: 150px;
+         justify-content: center;
+         align-content: center;
+         margin-top: 100px;
+}
+
+
+/* New Product Section Start Here */
+
+.new_product {
+       display: grid;
+       grid-template-columns: auto auto;
+       gap: 250px;
+       justify-content: center;
+       margin-top: 200px;       
+}
+
+
+.new_product_image{
+         width: 100%;
+         height: auto;
+}
+
+
+.new_product_text {
+         margin-top: 140px;
+         font-family:'Times New Roman', Times, serif;
+}
+
+#product_text {
+        font-size: 30px;
+        font-weight: bold;
+        opacity: 0.8;
+}
+
+#product_text1 {
+       font-size: 50px;
+       font-weight: bold;
+       font-family:Arial, Helvetica, sans-serif;
+       margin-top: 40px;
+}
+
+#product_text2 {
+       display: inline-block;
+       padding: 10px 24px;
+       background-color: black;
+       color: white;
+       margin-top: 80px;
+       font-size: 23px;
+}
+
+#product_text2:hover{
+        background-color: blue;
+        color: white;
+        opacity: 0.7;
+}
+
+
 
 
 
