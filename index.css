@@ -487,6 +487,10 @@ nav::after{
         margin-top: 50px;
 }
 
+.deals_photo, .deals_image > img {
+          cursor: pointer;
+}
+
 
 #image_one {
      font-weight: bold;
@@ -524,32 +528,157 @@ nav::after{
 
 
 
+/* news letter section start here*/
+
+#newsletter_head {
+         font-size: 2.8rem;
+         font-weight: bold;
+         text-align: center;
+         margin-top: 300px;
+}
+
+
+#newsletter_para {
+          font-size: 22px;
+          font-weight: bold;
+          opacity: 0.8;
+          text-align: center;
+          margin-top: 20px;
+}
 
 
 
+.input_form {
+         text-align: center;
+         margin-top: 60px;
+
+}
+
+input[type=text] {
+          width: 500px;
+          margin: auto;
+          padding: 20px;
+          opacity: 0.7;
+}
+
+
+input[type=submit] {
+          display: inline-block;
+          padding: 16px 40px;
+          background-color: black;
+          color: white;
+          border-radius: 5px;
+          font-size: 18px;
+          font-weight: bold;
+          margin-left: 30px;
+          cursor: pointer;
+          opacity: 0.9;
+}
+
+input[type=submit]:hover{
+         opacity: 0.7;
+         cursor: pointer;
+         text-decoration: underline;
+}
 
 
 
+/* footer section start here */
+
+.footer_section {
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          gap: 230px;
+          justify-content: center;
+          align-content: center;
+          margin-top: 380px;
+
+}
+
+
+/* Inside of footer section payment section start here */
+
+#footer_head {
+         font-size: 22px;
+         font-weight: bold;
+         font-family:'Times New Roman', Times, serif;
+}
+
+
+#payment_para {
+         margin-top: 35px;
+         line-height: 32px;
+}
+
+.payment_logo {
+          font-size: 30px;  
+          margin-top: 35px;   
+          cursor: pointer; 
+}
+
+
+#payment_lock {
+          margin-top: 30px;     
+          cursor: pointer;
+}
+
+
+/* top rated product section start here */
+
+
+.top_content {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex_start;
+         margin-top: 35px;
+         font-weight: bold;     
+}
+
+.top_image {
+         margin-right: 30px; 
+         cursor: pointer;   
+}
+
+
+/* shopping section start here */
+
+.guide_content {
+          color: purple;
+          line-height: 34px;
+          margin-top: 35px;
+          cursor: pointer;
+}
 
 
 
+/* company section start here */
+
+.company_para {
+           color: purple;
+           line-height: 34px;
+           margin-top: 35px;
+           cursor: pointer;
+}
 
 
+/* copy right section start here */
 
+hr {
+         opacity: 0.3;
+         width: 60%;
+         margin: auto;
+         margin-top: 100px;     
+}
 
+#copy_right {
+         text-align: center;
+         margin-top: 100px;
+         margin-bottom: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#text_one {
+        font-weight: bold;
+}
 
 
 
