@@ -135,7 +135,7 @@ nav::after{
 
 .image_content {
       margin-left: auto;
-      margin-top: 100px;    
+      margin-top: 100px;  
       }
 
 
@@ -147,6 +147,7 @@ nav::after{
         font-weight: bold;
         opacity: 0.7;
         margin-top: 100px;
+        width: 100%;
 }
 
 #discount1 {
@@ -679,11 +680,6 @@ hr {
 #text_one {
         font-weight: bold;
 }
-
-
-
-
-
 
 
 
